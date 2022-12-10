@@ -12,6 +12,9 @@ class App extends React.Component {
   componentDidMount() {
     this.timerID = setInterval(
 // write your code here
+      () => {
+        this.tick()
+      },1000
  
     );
   }
@@ -33,6 +36,9 @@ class App extends React.Component {
   }
 }
 
+
+
+export default App;
 
 
 export default App;
